@@ -7,15 +7,14 @@ import { HomeComponent } from './crud/home/home.component';
 import { UpdateComponent } from './crud/update/update.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/crud/home', pathMatch: 'full' },
-  { path: 'crud/home', component: HomeComponent },
-  { path: 'crud/details/:productId', component: DetailsComponent },
-  { path: 'crud/create', component: CreateComponent },
-  { path: 'crud/update/:productId', component: UpdateComponent }
+  {
+    path: '',
+    loadChildren: () => import('./crud/crud.module').then(m => m.CrudModule)
+  }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes), CommonModule],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

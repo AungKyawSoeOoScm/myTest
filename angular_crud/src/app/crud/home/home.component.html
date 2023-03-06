@@ -5,26 +5,23 @@
         <thead>
             <tr>
                 <th>#</th>
-                <th>Product Name</th>
-                <th>Description</th>
-                <th>Price</th>
-                <th>Quantity</th>
+                <th>Title</th>
+                <th>Body</th>
                 <th>Action</th>
             </tr>
         </thead>
         <tbody>
-            <ng-container *ngIf="posts.length> 0">
-                <tr *ngFor="let post of posts">
-                    <td>{{post.id}}</td>
-                    <td>{{post.title}}</td>
-                    <td>{{post.body}}</td>
-                    <td>
-                        <!-- <button type="button" [routerLink]="['/crud/update/', post.id]">Update</button> -->
-                        <button type="button" (click)="crudService.delete(post.id)">Remove</button>
-                    </td>
-                </tr>
-            </ng-container>
 
+            <tr *ngFor="let post of posts">
+                <td>{{post.id}}</td>
+                <td>{{post.title.substring(0,20)}}</td>
+                <td>{{post.body.substring(0,90)}}</td>
+                <td>
+                    <button type="button" routerLink="['/crud/update/', post.id]">Update</button>
+                    <button type="button" (click)="crudService.delete(post.id)">Remove</button>
+                </td>
+                <br><br>
+            </tr>
         </tbody>
     </table>
 </div>

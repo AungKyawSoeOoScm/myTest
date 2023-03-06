@@ -7,7 +7,7 @@ import { Post } from './post';
   providedIn: 'root'
 })
 export class CrudService {
-  private apiServer = "https://jsonplaceholder.typicode.com/";
+  private apiServer = "https://jsonplaceholder.typicode.com";
   httpOptions = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json'
@@ -42,6 +42,7 @@ export class CrudService {
   }
 
   delete(id: any) {
+    console.log(id);
     return this.httpClient.delete<Post>(this.apiServer + '/posts/' + id, this.httpOptions)
       .pipe(
         catchError(this.errorHandler)
