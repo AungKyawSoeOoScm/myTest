@@ -1,0 +1,172 @@
+{
+  "signup": [
+    {
+      "fname": "Manoj",
+      "lname": "Adhikari",
+      "email": "manojadhikari@gmail.com",
+      "phone": "234324234",
+      "password": "asdasdf",
+      "id": 1
+    },
+    {
+      "fname": "shivam",
+      "lname": "adhikari",
+      "email": "shivamadhikari@gmail.com",
+      "phone": "32432",
+      "password": "asdf",
+      "id": 2
+    },
+    {
+      "fname": "aung",
+      "lname": "kyaw",
+      "email": "aungkyaw@gmail.com",
+      "phone": "094545252452523",
+      "password": "aungkyaw123",
+      "id": 3
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 4
+    },
+    {
+      "fname": "fad",
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 5
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 6
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 7
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 8
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 9
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 10
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 11
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 12
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 13
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 14
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 15
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 16
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 17
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 18
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 19
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 20
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "phone": "admin@gmail.com",
+      "password": "admin123",
+      "id": 21
+    }
+  ]
+}
